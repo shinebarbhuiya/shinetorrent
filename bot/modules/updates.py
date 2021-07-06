@@ -95,5 +95,5 @@ async def update_it(client, message):
                 return repo.__del__()
             await msg_.edit(f"`Updated Sucessfully! \n\nCheck your config with` `/{BotCommands.ConfigMenuCommand}`")
     else:
-        await msg_.edit(f"**New Update Available**\nCHANGELOG:\n\n{clogs}\n\nDo `/update now` to Update BOT.", parse_mode="Markdown")
+        await msg_.edit(f"**New Update Available**\n\nFrom [REPO]({REPO_})\nCHANGELOG:\n\n{clogs}\n\nDo `/update now` to Update BOT.", parse_mode="Markdown",disable_web_page_preview=True)
         return
