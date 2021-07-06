@@ -3,9 +3,9 @@
   "description": "Telegram mirror bot with python",
   "logo": "https://telegra.ph/file/89a98d9634d296e516961.jpg",
   "keywords": ["telegram", "bot", "aria", "python", "junedkh"],
-  "repository": "https://github.com/junedkh/Torrent-Mirror-V1.1",
-  "website": "https://github.com/junedkh/Torrent-Mirror-V1.1/",
-  "success_url": "https://github.com/junedkh/Torrent-Mirror-V1.1/README.md",
+  "repository": "https://github.com/junedkh/Torrent-Mirror",
+  "website": "https://github.com/junedkh/Torrent-Mirror/",
+  "success_url": "https://github.com/junedkh/Torrent-Mirror/README.md",
   "stack": "container",
   "env": {
     "ENV": {
@@ -71,8 +71,8 @@
       "required": true
     },
     "UPSTREAM_REPO": {
-      "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/junedkh/Torrent-Mirror-V1.1.",
-      "value": "https://github.com/junedkh/Torrent-Mirror-V1.1",
+      "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/junedkh/Torrent-Mirror.",
+      "value": "https://github.com/junedkh/Torrent-Mirror",
       "required": true
     },
     "UPSTREAM_BRANCH": {
